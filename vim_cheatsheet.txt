@@ -1,0 +1,20 @@
+i		- insert mode
+Ctrl-c/Esc	- normal mode
+h,j,k,l 	- movement keys
+u		- undo
+Ctrl-r		- redo
+v		- visual mode
+a		- append (activates insert mode but after the cursor)
+A		- append (append but at EOL) 
+1G or gg	- move cursor to the beginning of a file
+G 		- move cursor to the end of a file
+0		- move cursor to the beginning of a line
+$		- move cursor to the end of a line
+/		- type this followed by the word you want to search and press <Enter>.
+		press n to get to next result, N to get to previous result
+x		- deletes characters to the right side of the cursor (including the character
+		under the cursor)
+X		- deletes characters to the left side of the cursor (basically backspace)
+		Note: x and X can also be used as a cut operator more so in visual mode
+y		- copy (also called the yank operator)
+dd		- deletes current line
