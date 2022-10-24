@@ -6,8 +6,10 @@ Ctrl-r		- redo
 v		- visual mode
 a		- append (activates insert mode but after the cursor)
 A		- append (append but at EOL) 
-1G or gg or [[	- move cursor to the first line of a file
-G or ]]		- move cursor to the last line of a file
+1G or gg	- move cursor to the first line of a file
+G		- move cursor to the last line of a file
+H		- move cursor to the first line visible in the screen buffer
+L		- move cursor to the last line visible in the screen buffer
 0		- move cursor to the beginning of a line
 $		- move cursor to the end of a line
 /		- type this followed by the word you want to search and press <Enter>.
@@ -29,3 +31,5 @@ c		- change operator (can be combined with movement keys)
 f,F		- find a character after/before the cursor
 t,T		- move to a character after/before the cursor
 r		- replace the character under cursor with another character
+>		- indent operator
+<		- outdent operator
