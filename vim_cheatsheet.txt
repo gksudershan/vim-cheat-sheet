@@ -1,3 +1,5 @@
+Normal mode:
+
 i		- insert mode
 Ctrl-c/Esc	- normal mode
 h,j,k,l 	- movement keys
@@ -33,3 +35,15 @@ t,T		- move to a character after/before the cursor
 r		- replace the character under cursor with another character
 >		- indent operator
 <		- outdent operator
+
+Insert mode:
+
+Ctrl-j		- open new line at the cursor position
+Ctrl-h		- Backspace (character)
+Ctrl-w		- Backspace (word)
+Ctrl-u		- Backspace (line)
+Ctrl-y		- replicates the line above the cursor
+Ctrl-t		- indent
+Ctrl-d		- outdent
+Ctrl-o		- activates normal mode for one keystroke
+Ctrl-p/Ctrl-n	- activates autocomplete
